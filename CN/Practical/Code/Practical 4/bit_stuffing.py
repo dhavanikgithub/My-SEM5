@@ -11,6 +11,6 @@ for i in range(0,len(data)):
                 break
             i=i+1
         if(f==1):
-            if(data[i]!='0'):
+            if(data[i]!='0' and i<len(data)):
                 data.insert(i,'0')
 print("Bit Stuff Data is: ","".join(data))
