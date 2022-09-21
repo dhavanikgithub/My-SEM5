@@ -9,6 +9,7 @@ Moodle Link
 http://202.131.126.215
 
 Sem 5 Link
+
 https://sites.google.com/ganpatuniversity.ac.in/odd22/5sem
 
 MAD Subject Link or MAD Practical Submission Status
