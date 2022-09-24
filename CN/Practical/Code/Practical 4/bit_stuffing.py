@@ -4,11 +4,11 @@ c=0
 index=0
 print("Flag is: ",flag)
 print("Original Data is: "+"".join(data_list))
-for i in range(0,len(data_list)):
+while (index<len(data_list)):
     if(index<len(data_list)):
         if(data_list[index]=='1' and index==0):
-            for j in range(index,len(data_list)):
-                if(data_list[j]=='1'):
+            while (index<len(data_list)):
+                if(data_list[index]=='1'):
                     index=index+1
                 else:
                     break
