@@ -1,0 +1,24 @@
+Q.1
+"CREATE DATABASE node_test"
+
+Q.2
+"CREATE TABLE product (id int AUTO_INCREMENT PRIMARY KEY, name varchar(50), brand varchar(50), quantity int, price REAL)"
+
+Q.3
+"INSERT INTO product (name, brand, quantity, price) values ('"+name+"','"+brand+"','"+quantity+"','"+price+"')"
+
+Q.4
+"SELECT * FROM product"
+
+Q.5
+"SELECT * FROM product name LIKE '%"+name+"%'"
+"SELECT * FROM product brand LIKE '%"+brand+"%'"
+
+Q.6
+"SELECT * FROM product where quantity<3"
+
+Q.7
+"UPDATE product SET price='"+price+"' WHERE id='"+id+"'"
+
+Q.8
+"DELETE FROM product WHERE id='"+id+"'"
