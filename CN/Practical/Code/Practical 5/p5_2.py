@@ -14,8 +14,11 @@ print("Sum is: ",sum)
 while(True):
     if(len(sum)>m):
         l=len(sum)-m
-        sum = bin(int(sum[:l],2)+int(sum[l:],2)).replace("0b","")
+        sum = bin(int(sum[l:],2)+int(sum[:l],2)).replace("0b","")
     else:
+        if(len(sum)<m):
+            for i in range(m-len(sum)):
+                sum="0"+sum
         break
 print("Wrap Sum is: ",sum)
 checksum=""
