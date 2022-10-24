@@ -1,6 +1,0 @@
-1. add listview tag in activity_main.xml file
-2. fetch listview from xml to kt
-3. give adapter class(maqintaning array list, displaying use interface) to listview
-4. private fun requestSMSPermission add code after onCreate method
-5. MainActivity Permissions methods add beforeb onCreate method
-6. MainActivity method to load SMS from Inbox MainActivity class ma game tya
