@@ -1,0 +1,18 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+lhld  2050
+xchg 
+lhld  2052
+dad  d
+shld  2054
+
+hlt

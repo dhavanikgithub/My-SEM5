@@ -1,0 +1,23 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+MVI C,00
+LDA 4150
+MOV B,A
+LDA 4151
+ADD B
+JNC LOOP
+INR C
+LOOP: STA 4152
+MOV A,C
+STA 4153
+
+hlt

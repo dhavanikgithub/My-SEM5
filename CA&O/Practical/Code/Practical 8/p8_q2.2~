@@ -1,0 +1,27 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+LHLD 2050
+XCHG
+LHLD 2052
+MVI C, 00
+MOV A, E
+SUB L
+STA 2054
+MOV A, D
+SBB H
+JMP LOOP
+INR C
+LOOP: STA 2055
+MOV A,C
+STA 2056
+
+hlt
