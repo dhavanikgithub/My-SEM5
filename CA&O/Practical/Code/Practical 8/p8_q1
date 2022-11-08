@@ -1,0 +1,22 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+mvi  c, 00
+lhld  2500
+mov  a, h
+sub  l
+jnc  LOOP
+inr  c
+LOOP: sta  2502
+mov  a, c
+sta  2503
+
+hlt
